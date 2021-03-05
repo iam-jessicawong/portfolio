@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;300;400;500;600;700;800;900&family=RocknRoll+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+  color: #404146;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #404146;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 27px;
+  font-weight: 700;
+  padding: 25px 40px;
+}
+
+.header-list {
+  margin-right: 30px;
+  float: right;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+  font-size: 18px;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.copy-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.copy-container h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+  line-height: 100px;
+  margin-top: 20px;
+}
+
+.copy-container h2 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.copy-container a {
+  text-decoration: none;
+  opacity: 0.9;
+  background-color: #008680;
+  font-weight: 700;
+  padding: 8px 30px;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.copy-container span {
+  color: #f2d00d;
+}
+
+.copy-container img {
+  height: 300px;
+}
+
+.about {
+  font-size: 28px;
+  height: 260px;
+  background-color: rgb(39, 39, 39);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: #fff;
+}
+
+.about h3 {
+  margin-bottom: 30px;
+}
+
+.about p {
+  padding: 0px 150px;
+  font-size: 20px;
+}
+
+.contents {
+  padding: 80px;
+  height: 135vh;
+}
+
+.contents h3 {
+  font-size: 28px;
+  /* padding-bottom: 30px; */
+}
+
+.contents-item {
+  float: left;
+  max-width: 45%;
+  padding-right: 50px;
+  margin-top: 50px;
+}
+
+.contents-item img {
+  max-width: 100%;
+  box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
+}
+
+.contents-item p {
+  font-size: 16px;
+  margin-top: 27px;
+  font-weight: 500;
+}
+
+.contact-form {
+  padding: 80px 80px 20px 80px;
+  background-color: rgb(39, 39, 39);
+  color: #fff;
+}
+
+.contact-form-row {
+  display: flex;
+}
+
+.contact-title {
+  font-size: 28px;
+  padding-bottom: 40px;
+}
+
+.contact-form .form-message {
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.contact-form .contact-info {
+  margin-top: 50px;
+  font-size: 16px;
+  line-height: 30px;
+  width: 50%;
+}
+
+.contact-form .contact-info i {
+  padding-right: 10px;
+  font-size: 18px;
+}
+
+input,
+textarea {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 0px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+input {
+  height: 10px;
+}
+
+textarea {
+  height: 100px;
+}
+
+::placeholder {
+  font-family: "Avenir Next";
+  color: #7c7d83;
+}
+
+.contact-submit {
+  width: max-content;
+  background-color: #008680;
+  color: #fff;
+  height: auto;
+  border-radius: 25px;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.contact-form p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #2c2c2c;
+  color: #fff;
+  padding: 40px 70px;
+}
+
+.row {
+  display: inline-block;
+}
+
+.footer-logo {
+  float: left;
+  width: 65%;
+  text-align: justify;
+}
+
+.footer-logo h1 {
+  font-family: "Cookie", cursive;
+  font-size: 53px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.footer-list {
+  float: right;
+  text-align: left;
+  width: 25%;
+}
+
+.footer-list h3 {
+  font-size: 21.5px;
+}
+
+.footer-list li {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  float: left;
+  padding-right: 25px;
+  font-size: 25px;
+  opacity: 0.85;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-list a:hover {
+  opacity: 1;
+  color: #00a589;
+}
+
+.credit {
+  margin-top: 40px;
+}
